@@ -422,7 +422,7 @@ Familiarize employees with compliance standards and the importance of protecting
 
 # Step 4: Implementing NIST CSF
 
-The NIST Cybersecurity Framework (CSF) provides a structured approach to improving cybersecurity. Below is a plan tailored to Botium Toys:
+The [NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework) provides a structured approach to improving cybersecurity. Below is a plan tailored to Botium Toys:
 
 ## 1. **Identify (Asset Management and Risk Assessment)**
 
