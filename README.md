@@ -1,6 +1,11 @@
 # Risk-Assesment-Report-Botium-Toys
 
-# **Botium Toys: Scope, Goals And Risk Assessment Report**
+# **Table of contents**
+1. [Scope, Goals And Risk Assessment Report](# **Scope, Goals And Risk Assessment Report**)
+
+2. Action plan to address Botium Toys' identified gaps and improve their security posture
+
+# **Scope, Goals And Risk Assessment Report**
 
 ## **Scope and Goals of the Audit**
 
