@@ -2,7 +2,8 @@
 
 # **Table of contents**
 1. [Scope, Goals And Risk Assessment Report](#scope-goals-and-risk-assessment-report)
-2. [Action plan to address Botium Toys' identified gaps and improve their security posture](#action-plan-to-address-botium-toys-identified-gaps-and-improve-their-security-posture)
+2. [Action plan to address identified gaps and improve security posture](#action-plan-to-address-botium-toys-identified-gaps-and-improve-their-security-posture)
+3. [Steps to Improve Security Posture : Step 1 Tool Selection](#step-1-tool-selection)
 
 # **Scope, Goals And Risk Assessment Report**
 
@@ -182,3 +183,47 @@ Botium Toys faces considerable risks due to the lack of appropriate security con
 | Compliance Review                    | 6–9 months    | Low      |
 | Security Awareness Training          | 6–9 months    | Low      |
 | Expand Monitoring (SIEM)             | 9–12 months   | Low      |
+
+---
+# Steps to Improve Security Posture
+
+## Step 1: Tool Selection
+
+### 1. **Encryption Tools**
+   **Goal:** Secure sensitive customer data in transit and at rest.
+   - **For Data at Rest:**
+     - **VeraCrypt:** Open-source encryption software for files and drives.
+     - **BitLocker (Windows):** Built-in encryption for Windows systems.
+     - **FileVault (macOS):** Encryption for macOS devices.
+   - **For Data in Transit:**
+     - **TLS Certificates:** Implement SSL/TLS using tools like Let’s Encrypt or commercial CAs.
+     - **VPN:** Secure internal communications with solutions like OpenVPN or WireGuard.
+
+### 2. **Intrusion Detection System (IDS)**
+   **Goal:** Monitor network traffic for suspicious activity.
+   - **Options:**
+     - **Snort:** Open-source IDS with robust community support.
+     - **Suricata:** Advanced IDS/IPS with high performance.
+     - **Zeek:** Focused on network analysis and anomaly detection.
+
+### 3. **Centralized Password Management Tools**
+   **Goal:** Enforce strong password policies and manage credentials.
+   - **Options:**
+     - **LastPass Enterprise:** Cloud-based solution with policy enforcement and auditing.
+     - **Dashlane Business:** Secure credential management with admin controls.
+     - **KeePassXC:** Open-source, self-hosted option for secure storage.
+
+### 4. **Asset Management Tools**
+   **Goal:** Catalog and classify assets for better management and visibility.
+   - **Options:**
+     - **Spiceworks Inventory:** Free tool for network and asset management.
+     - **Manage Engine Asset Explorer:** Comprehensive IT asset management solution.
+     - **Open-AudIT:** Open-source tool for automated asset discovery.
+
+### 5. **Backup Solutions**
+   **Goal:** Ensure disaster recovery and data availability.
+   - **Options:**
+     - **Veeam Backup & Replication:** Enterprise-grade backup for physical, virtual, and cloud environments.
+     - **Acronis Cyber Protect:** Combines backup with security features.
+     - **Duplicati:** Open-source tool for encrypted backups to multiple destinations.
+---
