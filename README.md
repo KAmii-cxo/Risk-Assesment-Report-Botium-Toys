@@ -4,6 +4,8 @@
 1. [Scope, Goals And Risk Assessment Report](#scope-goals-and-risk-assessment-report)
 2. [Action plan to address identified gaps and improve security posture](#action-plan-to-address-botium-toys-identified-gaps-and-improve-their-security-posture)
 3. [Steps to Improve Security Posture : Step 1 Tool Selection](#step-1-tool-selection)
+4. [Steps to Improve Security Posture : Step 2 Policy Creatio ](#step-2-policy-creation)
+
 
 # **Scope, Goals And Risk Assessment Report**
 
@@ -227,3 +229,105 @@ Botium Toys faces considerable risks due to the lack of appropriate security con
      - **Acronis Cyber Protect:** Combines backup with security features.
      - **Duplicati:** Open-source tool for encrypted backups to multiple destinations.
 ---
+
+# Step 2: Policy Creation
+
+## 1. **Role-Based Access Control (RBAC) Policy**
+
+### **Policy Objective:**
+Define access permissions based on roles to ensure employees have only the access necessary for their job.
+
+### **Sample RBAC Policy Structure:**
+**Policy Title:** Role-Based Access Control Policy
+
+**Purpose:**  
+To enforce the principle of least privilege and minimize unauthorized access to sensitive systems and data.
+
+**Scope:**  
+Applies to all employees, contractors, and third-party vendors accessing Botium Toys’ systems and data.
+
+**Policy:**  
+1. **Role Definitions:**  
+   - Define roles based on department and job function (e.g., IT Admin, Sales Rep, Customer Support).
+2. **Access Levels:**  
+   - Assign access levels (e.g., read-only, write, execute) for each role to specific systems and data.
+3. **Access Requests:**  
+   - Require approval from department heads for access to higher-level systems.
+4. **Periodic Reviews:**  
+   - Conduct quarterly audits to review and update access permissions.
+5. **Separation of Duties:**  
+   - Ensure critical tasks are divided among multiple roles to prevent misuse.
+6. **Revocation:**  
+   - Revoke access immediately upon termination or role change.
+
+**Non-Compliance:**  
+Failure to comply with this policy may result in disciplinary action up to and including termination.
+
+---
+
+## 2. **Password Policy**
+
+### **Policy Objective:**
+Define standards for password creation, usage, and management to prevent unauthorized access.
+
+### **Sample Password Policy Structure:**
+**Policy Title:** Password Management Policy
+
+**Purpose:**  
+To establish minimum requirements for creating and maintaining strong passwords.
+
+**Scope:**  
+Applies to all users accessing Botium Toys’ systems and data.
+
+**Policy:**  
+1. **Complexity Requirements:**  
+   - Minimum 12 characters.  
+   - Must include upper/lowercase letters, numbers, and special characters.
+2. **Expiration and Updates:**  
+   - Change passwords every 90 days.  
+   - Prohibit reuse of the last 5 passwords.
+3. **Account Lockout:**  
+   - Lock accounts after 5 failed login attempts.
+4. **Password Storage:**  
+   - Use only approved password management tools for storage.
+5. **Prohibited Actions:**  
+   - Sharing passwords with others.  
+   - Writing passwords down in unsecured locations.
+
+**Non-Compliance:**  
+Violations will result in restricted access and potential disciplinary actions.
+
+---
+
+## 3. **Disaster Recovery Policy (DRP)**
+
+### **Policy Objective:**
+Define procedures for recovering critical systems and data in the event of a disaster.
+
+### **Sample DRP Structure:**
+**Policy Title:** Disaster Recovery Plan
+
+**Purpose:**  
+To ensure business continuity by recovering critical systems and data promptly after a disaster.
+
+**Scope:**  
+Applies to all critical systems and data managed by Botium Toys.
+
+**Policy:**  
+1. **Critical Systems Identification:**  
+   - List critical systems (e.g., e-commerce platform, internal database).
+2. **Backup Procedures:**  
+   - Daily backups stored offsite and verified weekly.
+3. **Recovery Time Objectives (RTO):**  
+   - Define acceptable downtime for each system (e.g., 2 hours for e-commerce).
+4. **Testing and Maintenance:**  
+   - Conduct semi-annual DRP drills.  
+   - Update the plan after each test or major system change.
+5. **Incident Response Team:**  
+   - Assign roles and responsibilities for disaster recovery tasks.
+
+**Non-Compliance:**  
+Failure to follow DRP procedures during an incident may result in disciplinary actions.
+
+---
+
