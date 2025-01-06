@@ -30,7 +30,7 @@ The scope of this audit includes the entire security program at Botium Toys. Thi
 Currently, there is inadequate management of assets. Additionally, Botium Toys does not have all of the proper controls in place and may not be fully compliant with U.S. and international regulations and standards.
 
 ### **Control Best Practices:**
-- The first of the five functions of the NIST CSF is Identify. Botium Toys needs to dedicate resources to identify assets and manage them appropriately.
+- The first of the five functions of the [NIST CSF](https://www.nist.gov/cyberframework) is Identify. Botium Toys needs to dedicate resources to identify assets and manage them appropriately.
 - They will need to classify existing assets and assess the potential impact of asset loss, particularly critical systems, on business continuity.
 
 ### **Risk Score:**
