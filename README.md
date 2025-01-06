@@ -4,8 +4,10 @@
 1. [Scope, Goals And Risk Assessment Report](#scope-goals-and-risk-assessment-report)
 2. [Action plan to address identified gaps and improve security posture](#action-plan-to-address-botium-toys-identified-gaps-and-improve-their-security-posture)
 3. [Steps to Improve Security Posture : Step 1 Tool Selection](#step-1-tool-selection)
-4. [Steps to Improve Security Posture : Step 2 Policy Creatio ](#step-2-policy-creation)
-
+4. [Steps to Improve Security Posture : Step 2 Policy Creation ](#step-2-policy-creation)
+5. [Steps to Improve Security Posture : Step 3 Employee Training Materials](#step-3-employee-training-materials)
+6. [Steps to Improve Security Posture : Step 4 Implimenting NIST CSF](#step-4-implimenting-nist-csf)
+7. [Steps to Improve Security Posture : Step 5 Testing Stretegies](#step-5-testing-strategies) 
 
 # **Scope, Goals And Risk Assessment Report**
 
@@ -330,4 +332,304 @@ Applies to all critical systems and data managed by Botium Toys.
 Failure to follow DRP procedures during an incident may result in disciplinary actions.
 
 ---
+
+# Step 3: Employee Training Materials
+
+## 1. **Security Awareness Training (Phishing and Social Engineering)**
+
+### **Training Objective:**
+Educate employees on identifying phishing emails, social engineering tactics, and safe online behavior.
+
+### **Training Outline:**
+
+#### **Understanding Phishing:**
+- **Examples of phishing emails:**  
+  - Fake login requests.
+  - Urgent payment demands.
+- **How to spot red flags:**  
+  - Suspicious sender addresses.  
+  - Generic greetings (e.g., “Dear User”).  
+  - Grammatical errors.  
+  - Unexpected links or attachments.
+
+#### **Response to Phishing Attempts:**
+- Never click suspicious links or download unexpected attachments.
+- Report suspicious emails to the IT department immediately.
+
+#### **Social Engineering Awareness:**
+- **Common tactics:**  
+  - Pretexting.  
+  - Baiting.  
+  - Impersonation.
+- **Importance of verifying requests:**  
+  - Call back known contacts for verification.
+
+#### **Interactive Training:**
+- Provide simulated phishing exercises.
+- Test employees’ knowledge with short quizzes.
+
+---
+
+## 2. **Training Guides for New Tools (e.g., Password Manager)**
+
+### **Training Objective:**
+Ensure employees can efficiently use the password management system while adhering to the password policy.
+
+### **Training Outline:**
+
+#### **Introduction to the Tool:**
+- Overview of features (e.g., password storage, autofill, secure sharing).
+
+#### **Setup and Usage:**
+- Guide to installing and setting up the tool.
+- How to create and store strong passwords.
+- How to generate random passwords using the tool.
+
+#### **Best Practices:**
+- Regularly review stored credentials.
+- Use multifactor authentication (MFA) with the password manager.
+
+#### **Hands-On Activity:**
+- Simulate setting up an account and storing credentials.
+- Practice retrieving and using stored passwords.
+
+---
+
+## 3. **Compliance and Data Protection Training**
+
+### **Training Objective:**
+Familiarize employees with compliance standards and the importance of protecting sensitive data.
+
+### **Training Outline:**
+
+#### **Compliance Overview:**
+- Explain relevant regulations (e.g., GDPR, PCI DSS).
+- Highlight potential penalties for non-compliance.
+
+#### **Handling Sensitive Data:**
+- Define PII/SPII and cardholder data.
+- How to encrypt sensitive files.
+
+#### **Data Access and Sharing:**
+- Importance of adhering to access control policies.
+- Guidelines for secure data sharing (e.g., encrypted email or secure portals).
+
+#### **Interactive Scenarios:**
+- Role-play handling customer data requests securely.
+- Simulate recognizing and reporting a compliance violation.
+
+---
+
+# Step 4: Implementing NIST CSF
+
+The NIST Cybersecurity Framework (CSF) provides a structured approach to improving cybersecurity. Below is a plan tailored to Botium Toys:
+
+## 1. **Identify (Asset Management and Risk Assessment)**
+
+### **Objective:** 
+Create an inventory of assets and classify them by criticality.
+
+### **Steps:**
+
+#### **Asset Inventory:**
+- Use tools like Spiceworks or Open-AudIT to document all hardware, software, and data assets.
+- Classify assets based on their importance (e.g., critical, high, medium, low).
+
+#### **Risk Assessment:**
+- Evaluate risks to critical assets, such as legacy systems or unencrypted databases.
+- Document potential impacts (e.g., financial loss, regulatory fines).
+
+#### **Gap Analysis:**
+- Compare current controls to NIST best practices.
+- Prioritize missing controls (e.g., encryption, access controls).
+
+---
+
+## 2. **Protect (Implement Security Controls)**
+
+### **Objective:** 
+Safeguard assets through proper controls and training.
+
+### **Steps:**
+
+#### **Access Controls:**
+- Enforce role-based access (RBAC) and least privilege.
+- Implement MFA for all systems handling sensitive data.
+
+#### **Encryption:**
+- Use TLS for data in transit.
+- Encrypt databases with tools like BitLocker or VeraCrypt.
+
+#### **Endpoint Security:**
+- Regularly update antivirus and firewalls.
+- Deploy device management policies for remote workstations.
+
+#### **Employee Awareness:**
+- Conduct security training on phishing, password hygiene, and compliance.
+
+---
+
+## 3. **Detect (Monitoring and Alerts)**
+
+### **Objective:** 
+Identify anomalies and potential threats in real-time.
+
+### **Steps:**
+
+#### **Deploy IDS/IPS:**
+- Use Snort or Suricata to monitor network traffic.
+
+#### **Log Management:**
+- Implement a SIEM solution like Splunk or ELK stack for centralized log analysis.
+
+#### **Incident Reporting:**
+- Define procedures for reporting and escalating suspicious activity.
+
+---
+
+## 4. **Respond (Incident Response Plan)**
+
+### **Objective:** 
+Minimize damage during a security incident.
+
+### **Steps:**
+
+#### **Incident Response Team:**
+- Assign roles (e.g., incident coordinator, technical analyst).
+
+#### **Documented Procedures:**
+- Create playbooks for common scenarios (e.g., malware detection, data breaches).
+
+#### **Communication Plan:**
+- Notify customers and authorities within required timeframes (e.g., GDPR 72-hour rule).
+
+---
+
+## 5. **Recover (Disaster Recovery and Business Continuity)**
+
+### **Objective:** 
+Restore operations and minimize downtime after an incident.
+
+### **Steps:**
+
+#### **Backups:**
+- Use automated backups with offsite/cloud storage.
+- Test backup restorations regularly.
+
+#### **Disaster Recovery Drills:**
+- Simulate scenarios (e.g., ransomware attack) to test response readiness.
+
+#### **Post-Incident Reviews:**
+- Analyze incidents to identify gaps and improve controls.
+
+---
+
+# Step 5: Testing Strategies
+
+## 1. **Disaster Recovery Testing**
+
+### **Objective:** 
+Ensure the organization can restore operations effectively after an incident.
+
+### **Steps for Testing:**
+
+#### **Tabletop Exercises:**
+- Simulate a disaster scenario (e.g., ransomware attack).
+- Walk through the disaster recovery plan with key stakeholders to identify gaps.
+
+#### **Backup Restoration Tests:**
+- Retrieve backup data and restore critical systems in a test environment.
+- Verify data integrity and system functionality post-restoration.
+
+#### **Failover Drills:**
+- Simulate a server failure and test failover to backup servers.
+- Measure the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) compliance.
+
+#### **Communication Tests:**
+- Test the incident communication plan, including notifying employees and customers.
+- Ensure the contact details and escalation paths are up to date.
+
+---
+
+## 2. **Compliance Testing**
+
+### **Objective:** 
+Verify adherence to industry regulations (e.g., GDPR, PCI DSS).
+
+### **Steps for Testing:**
+
+#### **Internal Audits:**
+- Use a compliance checklist to review data handling practices, encryption, and access controls.
+- Confirm that privacy notices and breach notification procedures align with legal requirements.
+
+#### **Penetration Testing:**
+- Test the security of systems handling sensitive data using tools like Metasploit or Burp Suite.
+- Ensure cardholder data is encrypted and access is restricted.
+
+#### **Third-Party Assessments:**
+- Engage external auditors to evaluate compliance with standards like GDPR and PCI DSS.
+
+#### **Policy Reviews:**
+- Verify that policies (e.g., RBAC, password management) are enforced and up to date.
+- Conduct employee interviews to ensure training comprehension.
+
+---
+
+## 3. **Security Control Testing**
+
+### **Objective:** 
+Validate the effectiveness of implemented security measures.
+
+### **Steps for Testing:**
+
+#### **Vulnerability Scanning:**
+- Regularly scan for vulnerabilities in systems and networks using tools like Nessus or Qualys.
+
+#### **Simulated Attacks:**
+- Conduct red team exercises to test defenses against real-world attack scenarios.
+- Evaluate detection and response capabilities (e.g., IDS/IPS).
+
+#### **Access Control Testing:**
+- Attempt to access restricted systems or data to ensure RBAC and least privilege policies are enforced.
+
+#### **Patch Management:**
+- Verify that critical updates are applied promptly and documented.
+
+---
+
+## 4. **Employee Awareness Testing**
+
+### **Objective:** 
+Assess the effectiveness of security training programs.
+
+### **Steps for Testing:**
+
+#### **Phishing Simulations:**
+- Send fake phishing emails to employees and track response rates.
+- Provide additional training for those who fall for the simulation.
+
+#### **Quizzes and Surveys:**
+- Test employees on key concepts, such as spotting phishing emails and using the password manager.
+
+#### **Incident Reporting Drills:**
+- Simulate a security incident and observe employees’ adherence to reporting procedures.
+
+---
+
+## 5. **Legacy System Management Testing**
+
+### **Objective:** 
+Ensure legacy systems are secure and monitored.
+
+### **Steps for Testing:**
+
+#### **Regular Maintenance Checks:**
+- Test scheduled updates and interventions.
+- Verify that monitoring tools alert for unusual activity.
+
+#### **Compatibility Tests:**
+- Ensure legacy systems integrate securely with newer systems.
+
+#### **Decommissioning Plans:**
+- Test the secure removal of data and systems nearing end-of-life.
 
