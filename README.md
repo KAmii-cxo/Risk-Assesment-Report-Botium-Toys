@@ -14,10 +14,10 @@
 ## **Scope and Goals of the Audit**
 
 ## **Scope:**
-The scope of this audit includes the entire security program at Botium Toys. This encompasses their assets like employee equipment and devices, internal network, and systems. The audit will focus on reviewing the assets Botium Toys has and the controls and compliance practices they have in place.
+The scope of this audit is defined as the entire security program at Botium Toys. This includes their assets like employee equipment and devices, their internal network, and their systems. You will need to review the assets Botium Toys has and the controls and compliance practices they have in place.
 
 ### **Goals:**
-- **Primary Goal:** Assess existing assets and complete the controls and compliance checklist to determine which controls and compliance best practices need to be implemented to improve Botium Toys’ security posture.
+- **Primary Goal:**Assess existing assets and complete the controls and compliance checklist to determine which controls and compliance best practices that need to be implemented to  improve Botium Toys’ security posture.
 
 ---
 
@@ -41,6 +41,9 @@ Currently, there is inadequate management of assets. Additionally, Botium Toys d
 ### **Control Best Practices:**
 - The first of the five functions of the [NIST CSF](https://www.nist.gov/cyberframework) is Identify. Botium Toys needs to dedicate resources to identify assets and manage them appropriately.
 - They will need to classify existing assets and assess the potential impact of asset loss, particularly critical systems, on business continuity.
+
+### **Risk score**
+On a scale of 1 to 10, the risk score is 8, which is fairly high. This is due to a lack of controls and adherence to compliance best practices.
 
 ---
 
