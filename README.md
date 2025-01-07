@@ -9,11 +9,11 @@
 6. [Steps to Improve Security Posture : Step 4 Implimenting NIST CSF](#step-4-implimenting-nist-csf)
 7. [Steps to Improve Security Posture : Step 5 Testing Stretegies](#step-5-testing-strategies) 
 
-# **Scope, Goals And Risk Assessment Report**
+## **Scope, Goals And Risk Assessment Report**
 
 ## **Scope and Goals of the Audit**
 
-### **Scope:**
+## **Scope:**
 The scope of this audit includes the entire security program at Botium Toys. This encompasses their assets like employee equipment and devices, internal network, and systems. The audit will focus on reviewing the assets Botium Toys has and the controls and compliance practices they have in place.
 
 ### **Goals:**
