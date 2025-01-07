@@ -225,7 +225,7 @@ Botium Toys faces considerable risks due to the lack of appropriate security con
 
 ## Step 2: Policy Creation
 
-## 1. **Role-Based Access Control (RBAC) Policy**
+### 1. **Role-Based Access Control (RBAC) Policy**
 
 ### **Policy Objective:**
 Define access permissions based on roles to ensure employees have only the access necessary for their job.
@@ -258,7 +258,7 @@ Failure to comply with this policy may result in disciplinary action up to and i
 
 ---
 
-## 2. **Password Policy**
+### 2. **Password Policy**
 
 ### **Policy Objective:**
 Define standards for password creation, usage, and management to prevent unauthorized access.
@@ -292,7 +292,7 @@ Violations will result in restricted access and potential disciplinary actions.
 
 ---
 
-## 3. **Disaster Recovery Policy (DRP)**
+### 3. **Disaster Recovery Policy (DRP)**
 
 ### **Policy Objective:**
 Define procedures for recovering critical systems and data in the event of a disaster.
@@ -324,9 +324,9 @@ Failure to follow DRP procedures during an incident may result in disciplinary a
 
 ---
 
-## Step 3: Employee Training Materials
+### Step 3: Employee Training Materials
 
-## 1. **Security Awareness Training (Phishing and Social Engineering)**
+### 1. **Security Awareness Training (Phishing and Social Engineering)**
 
 ### **Training Objective:**
 Educate employees on identifying phishing emails, social engineering tactics, and safe online behavior.
@@ -361,7 +361,7 @@ Educate employees on identifying phishing emails, social engineering tactics, an
 
 ---
 
-## 2. **Training Guides for New Tools (e.g., Password Manager)**
+### 2. **Training Guides for New Tools (e.g., Password Manager)**
 
 ### **Training Objective:**
 Ensure employees can efficiently use the password management system while adhering to the password policy.
@@ -386,7 +386,7 @@ Ensure employees can efficiently use the password management system while adheri
 
 ---
 
-## 3. **Compliance and Data Protection Training**
+### 3. **Compliance and Data Protection Training**
 
 ### **Training Objective:**
 Familiarize employees with compliance standards and the importance of protecting sensitive data.
@@ -411,11 +411,11 @@ Familiarize employees with compliance standards and the importance of protecting
 
 ---
 
-# Step 4: Implementing NIST CSF
+### Step 4: Implementing NIST CSF
 
 The [NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework) provides a structured approach to improving cybersecurity. Below is a plan tailored to Botium Toys:
 
-## 1. **Identify (Asset Management and Risk Assessment)**
+### 1. **Identify (Asset Management and Risk Assessment)**
 
 ### **Objective:** 
 Create an inventory of assets and classify them by criticality.
@@ -436,7 +436,7 @@ Create an inventory of assets and classify them by criticality.
 
 ---
 
-## 2. **Protect (Implement Security Controls)**
+###2. **Protect (Implement Security Controls)**
 
 ### **Objective:** 
 Safeguard assets through proper controls and training.
@@ -460,7 +460,7 @@ Safeguard assets through proper controls and training.
 
 ---
 
-## 3. **Detect (Monitoring and Alerts)**
+### 3. **Detect (Monitoring and Alerts)**
 
 ### **Objective:** 
 Identify anomalies and potential threats in real-time.
@@ -478,7 +478,7 @@ Identify anomalies and potential threats in real-time.
 
 ---
 
-## 4. **Respond (Incident Response Plan)**
+### 4. **Respond (Incident Response Plan)**
 
 ### **Objective:** 
 Minimize damage during a security incident.
@@ -496,7 +496,7 @@ Minimize damage during a security incident.
 
 ---
 
-## 5. **Recover (Disaster Recovery and Business Continuity)**
+### 5. **Recover (Disaster Recovery and Business Continuity)**
 
 ### **Objective:** 
 Restore operations and minimize downtime after an incident.
@@ -515,9 +515,9 @@ Restore operations and minimize downtime after an incident.
 
 ---
 
-# Step 5: Testing Strategies
+## Step 5: Testing Strategies
 
-## 1. **Disaster Recovery Testing**
+### 1. **Disaster Recovery Testing**
 
 ### **Objective:** 
 Ensure the organization can restore operations effectively after an incident.
@@ -542,7 +542,7 @@ Ensure the organization can restore operations effectively after an incident.
 
 ---
 
-## 2. **Compliance Testing**
+### 2. **Compliance Testing**
 
 ### **Objective:** 
 Verify adherence to industry regulations (e.g., GDPR, PCI DSS).
@@ -566,7 +566,7 @@ Verify adherence to industry regulations (e.g., GDPR, PCI DSS).
 
 ---
 
-## 3. **Security Control Testing**
+### 3. **Security Control Testing**
 
 ### **Objective:** 
 Validate the effectiveness of implemented security measures.
@@ -588,7 +588,7 @@ Validate the effectiveness of implemented security measures.
 
 ---
 
-## 4. **Employee Awareness Testing**
+### 4. **Employee Awareness Testing**
 
 ### **Objective:** 
 Assess the effectiveness of security training programs.
@@ -607,7 +607,7 @@ Assess the effectiveness of security training programs.
 
 ---
 
-## 5. **Legacy System Management Testing**
+### 5. **Legacy System Management Testing**
 
 ### **Objective:** 
 Ensure legacy systems are secure and monitored.
