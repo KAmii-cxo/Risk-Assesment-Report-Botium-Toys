@@ -180,7 +180,7 @@ Botium Toys faces considerable risks due to the lack of appropriate security con
 | Expand Monitoring (SIEM)             | 9–12 months   | Low      |
 
 ---
-# Steps to Improve Security Posture
+## Steps to Improve Security Posture
 
 ## Step 1: Tool Selection
 
@@ -223,7 +223,7 @@ Botium Toys faces considerable risks due to the lack of appropriate security con
      - **Duplicati:** Open-source tool for encrypted backups to multiple destinations.
 ---
 
-# Step 2: Policy Creation
+## Step 2: Policy Creation
 
 ## 1. **Role-Based Access Control (RBAC) Policy**
 
@@ -324,7 +324,7 @@ Failure to follow DRP procedures during an incident may result in disciplinary a
 
 ---
 
-# Step 3: Employee Training Materials
+## Step 3: Employee Training Materials
 
 ## 1. **Security Awareness Training (Phishing and Social Engineering)**
 
