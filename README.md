@@ -42,9 +42,6 @@ Currently, there is inadequate management of assets. Additionally, Botium Toys d
 - The first of the five functions of the [NIST CSF](https://www.nist.gov/cyberframework) is Identify. Botium Toys needs to dedicate resources to identify assets and manage them appropriately.
 - They will need to classify existing assets and assess the potential impact of asset loss, particularly critical systems, on business continuity.
 
-### **Risk Score:**
-- On a scale of 1 to 10, the risk score is **8**, which is fairly high. This is due to a lack of controls and adherence to compliance best practices.
-
 ---
 
 ## **Additional Comments:**
