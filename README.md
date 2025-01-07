@@ -44,15 +44,6 @@ Currently, there is inadequate management of assets. Additionally, Botium Toys d
 
 ---
 
-## **Additional Comments:**
-- **Potential Impact from Asset Loss:** Medium
-  - The IT department lacks clarity on which assets could be at risk.
-  
-- **Risk to Assets or Fines from Governing Bodies:** High
-  - Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations for keeping critical data private and secure.
-
----
-
 ## **Specific Findings:**
 
 - **Access to Data:**
