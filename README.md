@@ -1,6 +1,6 @@
 # Risk Assesment Report Botium Toys
 
-# **Table of contents**
+## **Table of contents**
 1. [Scope, Goals And Risk Assessment Report](#scope-goals-and-risk-assessment-report)
 2. [Action plan to address identified gaps and improve security posture](#action-plan-to-address-botium-toys-identified-gaps-and-improve-their-security-posture)
 3. [Steps to Improve Security Posture : Step 1 Tool Selection](#step-1-tool-selection)
