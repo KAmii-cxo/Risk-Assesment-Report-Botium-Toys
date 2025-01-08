@@ -86,7 +86,7 @@ On a scale of 1 to 10, the risk score is 8, which is fairly high. This is due to
 ## **Specific Findings:**
 
 - **Access to Data:**
-  - All employees currently have access to internal data and may be able to access cardholder data and customers' PII/SPII.
+  - All employees currently have access to internal data and may be able to access cardholder data and customers' [PII/SPII](https://github.com/KAmii-cxo/PII-VS-SPII).
   
 - **Encryption:**
   - No encryption is in use for the confidentiality of customers' credit card information stored and processed in the internal database.
